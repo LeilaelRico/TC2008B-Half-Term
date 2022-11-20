@@ -28,8 +28,8 @@ public class BulletSpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Particles Count: " + system.particleCount);
-        Debug.Log("Particles Alive Count: " + GetAliveParticles());
+        Debug.Log("Balas contadas: " + system.particleCount);
+        Debug.Log("Balas renderizadas: " + GetAliveParticles());
     }
 
     int GetAliveParticles()
