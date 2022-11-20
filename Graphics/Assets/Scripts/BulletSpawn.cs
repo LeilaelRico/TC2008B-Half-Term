@@ -18,6 +18,25 @@ public class BulletSpawn : MonoBehaviour
     public float time;
 
     public ParticleSystem system;
+    
+
+    void Start()
+    {
+        system = GetComponent<ParticleSystem>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Debug.Log("Particles Count: " + system.particleCount);
+        Debug.Log("Particles Alive Count: " + GetAliveParticles());
+    }
+
+    int GetAliveParticles()
+    {
+        ParticleSystem.Particle[] particles = new ParticleSystem.Particle[system.particleCount];
+        return system.GetParticles(particles);
+    }
 
 
     private void Awake()
