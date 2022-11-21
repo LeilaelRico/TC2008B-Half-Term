@@ -359,6 +359,7 @@
 "Assets/Scripts/BulletSpawnF.cs"
 "Assets/Scripts/Delay.cs"
 "Assets/Scripts/Delay2.cs"
+"Assets/Scripts/Delay3.cs"
 "Assets/Whale3D/Script/BaseMesh.cs"
 "Assets/Whale3D/Script/PlayANim.cs"
 -langversion:9.0

@@ -9,7 +9,7 @@ public class Delay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DOVirtual.DelayedCall(15, GotoNextScene);
+        DOVirtual.DelayedCall(20, GotoNextScene);
     }
 
     // Update is called once per frame
